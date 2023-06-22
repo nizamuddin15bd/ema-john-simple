@@ -1,8 +1,14 @@
-.shop-container{
-    display: grid;
-    grid-template-columns: 4fr 1fr;
+.shop-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
 }
-.product-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.cart-container {
+  background-color: #ebad50;
+  padding-left: 10px;
 }
